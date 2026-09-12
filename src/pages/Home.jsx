@@ -155,20 +155,7 @@ export default function Home() {
       id="home-page-custom"
       className="font-sans antialiased text-[#62666A] bg-white"
     >
-      {/* ================= CORPORATE VIDEO SHOWCASE ================= */}
-      <section className="bg-[#030712] py-20 border-b border-slate-900 overflow-hidden relative">
-        {/* Subtle glowing mesh and grid overlay */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,rgba(0,210,255,0.08),transparent_70%)]"></div>
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.005)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.005)_1px,transparent_1px)] bg-[size:30px_30px] pointer-events-none"></div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl mt-2 sm:text-3xl font-extrabold text-[#1FD2E6] tracking-tight">
-              Metalnova
-            </h3>
-          </div>
-        </div>
-      </section>
 
       {/* ================= HERO SECTION (PREMIUM DARK SYSTEM) ================= */}
       <section
@@ -375,7 +362,7 @@ export default function Home() {
             >
               {/* Framed Image Container */}
               <div className="p-4">
-                <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-white flex items-center justify-center border border-slate-800/40 p-3">
+                <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-white flex items-center justify-center">
                   {cat.img && (
                     <img
                       src={cat.img}
